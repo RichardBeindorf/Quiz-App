@@ -46,3 +46,17 @@ a {
     text-transform: lowercase;
     text-decoration: none;
 }
+
+.question {
+    border: 1px solid blue;
+}
+
+.answer {
+    border: 1px solid lightblue;
+}
+
+.showanswer {
+    padding: 5px 15px;
+    background-color: #fff;
+    border: 1px solid #2660f4;
+}
