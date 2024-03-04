@@ -37,6 +37,10 @@ header {
 
 /*-----Fragekarte Sektion--------*/
 
+main {
+  margin: 40px 5px 70px 5px;
+}
+
 .card {
   position: relative;
   padding: 20px;
@@ -94,7 +98,19 @@ header {
 
 /*-----TAGS--------*/
 
+/*-----PROFILE PAGE--------*/
+
+
+
+
 /*-----FOOTER--------*/
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
 .navbar {
   display: flex;
   justify-content: space-evenly;
