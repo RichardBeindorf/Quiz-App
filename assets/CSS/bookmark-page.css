@@ -1,0 +1,40 @@
+@import url(/assets/CSS/header.css);
+@import url(/assets/CSS/card.css);
+@import url(/assets/CSS/navbar.css);
+@import url(/assets/CSS/profile-page.css);
+@import url(/assets/CSS/bookmark-page.css);
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Cormorant Garamond", serif;
+  text-align: center;
+  background-color: #fff;
+  margin-bottom: 0px;
+}
+
+p {
+  font-family: "Fira Sans", sans-serif;
+}
+
+a {
+  color: black;
+  text-transform: lowercase;
+  text-decoration: none;
+}
+/*----black Bookmarks----*/
+.material-symbols-outlined {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+    background-color: #fff;
+}
