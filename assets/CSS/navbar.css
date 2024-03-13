@@ -1,9 +1,9 @@
-
 footer {
-    position: fixed;
-    bottom: 0px;
-    width: 100%;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
 }
+
 
 .navbar {
   display: flex;
@@ -18,4 +18,8 @@ footer {
   font-size: 20px;
   overflow: hidden;
   padding: 2px;
+}
+
+.navicon svg path {
+  fill: #e5fffa; /* Change the fill color to white */
 }
