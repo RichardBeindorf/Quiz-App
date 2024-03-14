@@ -4,6 +4,13 @@ footer {
   width: 100%;
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  max-height: 40px;
+  background: linear-gradient(hsl(239, 100%, 81%), hsl(223, 60%, 50%));
+}
+
 .navicon-book svg path {
   fill: #e5fffa;
 }
@@ -16,22 +23,23 @@ footer {
   fill: #e5fffa;
 }
 
-.navbar {
-  display: flex;
-  justify-content: space-evenly;
-  max-height: 40px;
-  background: linear-gradient(hsl(239, 100%, 81%), hsl(223, 60%, 50%));
+.navicon-questions svg path {
+  fill: #e5fffa;
 }
 
 .navicon-book:hover {
   background: linear-gradient(hsl(239, 92%, 76%), hsl(223, 50%, 49%));
 }
 
-.navicon-home {
+.navicon-profile:hover {
   background: linear-gradient(hsl(239, 92%, 76%), hsl(223, 50%, 49%));
 }
 
-.navicon-profile:hover {
+.navicon-home:hover {
+  background: linear-gradient(hsl(239, 92%, 76%), hsl(223, 50%, 49%));
+}
+
+.navicon-questions:hover {
   background: linear-gradient(hsl(239, 92%, 76%), hsl(223, 50%, 49%));}
 
 #bookmarkarea {
