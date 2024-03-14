@@ -7,7 +7,7 @@ footer {
 .navbar {
   display: flex;
   justify-content: space-evenly;
-  max-height: 40px;
+  max-height: 5vh;
   background: linear-gradient(hsl(239, 100%, 81%), hsl(223, 60%, 50%));
 }
 
