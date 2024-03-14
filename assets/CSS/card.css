@@ -25,19 +25,20 @@ main {
   }
   
   .answer {
+    display: none;
     background-color: #9c9eff;
     border-radius: 10px;
     margin: 15px 0px 15px 0px;
   }
   
-  .showanswer {
+  .answer-button {
     padding: 5px;
     background-color: #fff;
     border-radius: 15px;
     border: 1px solid white;
   }
   
-  .showanswer:hover {
+  .answer-button:hover {
     background-color: #3560cc;
     border: 1px solid whitesmoke;
     color: #fff;

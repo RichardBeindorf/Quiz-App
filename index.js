@@ -12,11 +12,20 @@ bookmark.addEventListener("click", () => {
 }
 );
 
-const questCard = document.querySelector('data-js="card1"');
-const toggleButton = document.querySelector('data-js="showButton"');
-const toggleAnswer = document.querySelector('data-js="answer"');
+//Now i want to toggle the answer area, for now its display = none i want to switch that to default on click -->
+
+//const questCard = document.querySelector('[data-js="card1"]');
+
+// these are the connections to html
+const toggleButton = document.querySelector('[data-js="showButton"]');
+const toggleAnswer = document.querySelector('[data-js="answer"]');
 
 toggleButton.addEventListener("click", () => {
-    
+    //here im looking to read the display value
+    const findCSSAnswer = window.getComputedStyle(toggleAnswer);
+    const findDisplay = findCSSAnswer.getPropertyValue('display');
+    //now i want to change the display value
+    if (findDisplay === 'none') {toggleAnswer.style.display = 'block'}
+    else if (findDisplay === 'block') {toggleAnswer.style.display = 'none'}
 }
 );
