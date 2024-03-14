@@ -1,16 +1,38 @@
-
 footer {
-    position: fixed;
-    bottom: 0px;
-    width: 100%;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+
+.navicon-book svg path {
+  fill: #e5fffa;
+}
+
+.navicon-home svg path {
+  fill: #e5fffa;
+}
+
+.navicon-profile svg path {
+  fill: #e5fffa;
 }
 
 .navbar {
   display: flex;
   justify-content: space-evenly;
   max-height: 40px;
-  background: linear-gradient(#9c9eff, #3560cc);
+  background: linear-gradient(hsl(239, 100%, 81%), hsl(223, 60%, 50%));
 }
+
+.navicon-book:hover {
+  background: linear-gradient(hsl(239, 92%, 76%), hsl(223, 50%, 49%));
+}
+
+.navicon-home {
+  background: linear-gradient(hsl(239, 92%, 76%), hsl(223, 50%, 49%));
+}
+
+.navicon-profile:hover {
+  background: linear-gradient(hsl(239, 92%, 76%), hsl(223, 50%, 49%));}
 
 #bookmarkarea {
   display: flex;

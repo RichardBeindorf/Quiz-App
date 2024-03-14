@@ -23,7 +23,6 @@ p {
 
 a {
   color: black;
-  text-transform: lowercase;
   text-decoration: none;
 }
 
@@ -34,6 +33,7 @@ a {
   right: -10px;
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
   background-color: #fff;
+  cursor: pointer;
 }
 /*--------DAS NICHT COPY PASTEN--------*/
 
