@@ -12,3 +12,11 @@ bookmark.addEventListener("click", () => {
 }
 );
 
+const questCard = document.querySelector('data-js="card1"');
+const toggleButton = document.querySelector('data-js="showButton"');
+const toggleAnswer = document.querySelector('data-js="answer"');
+
+toggleButton.addEventListener("click", () => {
+    
+}
+);
